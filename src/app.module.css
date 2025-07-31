@@ -46,6 +46,13 @@ code {
     padding: 0.1em 0.4em;
 }
 
+.input-container__input--default {
+    color: black;
+}
+.input-container__input--result {
+    color: green;
+}
+
 .numbers-container {
     grid-area: numbers;
     display: grid;
