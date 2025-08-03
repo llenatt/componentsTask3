@@ -49,12 +49,12 @@ export const App = () => {
         } else if (newValue === '=') {
             if (operator === '+') {
                 const quickSum = sum + Number(calc);
-                setInputValue(quickSum);
+                setInputValue(String(quickSum));
                 setCalc('');
                 setSum(quickSum);
             } else if (operator === '-') {
                 const quickSum = sum - Number(calc);
-                setInputValue(quickSum);
+                setInputValue(String(quickSum));
                 setCalc('');
                 setSum(quickSum);
             }
